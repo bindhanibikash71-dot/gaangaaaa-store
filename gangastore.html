@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>𝙂𝙖𝙖𝙣𝙜𝙖𝙖𝙖𝙖 𝙎𝙩𝙤𝙧𝙚</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Courier New", monospace;}
+body{background:#050b14;color:#e8f4ff;text-align:center;}
+.glow{animation:glowPulse 1.5s infinite;}
+@keyframes glowPulse{0%{text-shadow:0 0 5px #1fb6ff;}50%{text-shadow:0 0 30px #7fd7ff;}100%{text-shadow:0 0 5px #1fb6ff;}}
+
+header{padding:30px 15px;}
+header img.logo{width:80px;border-radius:12px;box-shadow:0 0 25px #4fc3ff;}
+header h1{font-size:34px;margin-top:10px;color:#7fd7ff;}
+header p{font-size:16px;margin-top:6px;}
+
+.profile{margin-top:25px;}
+.profile img{width:180px;height:230px;object-fit:cover;object-position:top;border-radius:14px;border:3px solid #4fc3ff;box-shadow:0 0 35px #4fc3ff;}
+.profile h3{margin-top:12px;font-size:18px;}
+.profile p{margin-top:6px;font-size:15px;}
+
+.apps{max-width:420px;margin:40px auto;}
+.app{background:rgba(79,195,255,0.12);margin-bottom:25px;padding:22px;border-radius:16px;box-shadow:0 0 30px rgba(79,195,255,.8);}
+.app img{width:85px;border-radius:14px;box-shadow:0 0 20px #4fc3ff;margin-bottom:10px;}
+.app h2{font-size:20px;margin:10px 0;}
+.price{font-size:26px;margin:10px 0;}
+button{padding:12px 30px;border:none;border-radius:10px;background:linear-gradient(135deg,#ffffff,#4fc3ff);color:#00131f;font-size:16px;cursor:pointer;margin-top:6px;}
+
+.dev{border-top:1px solid rgba(255,255,255,.3);padding:30px 20px;margin-top:40px;}
+.dev-photo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #4fc3ff;
+    box-shadow:0 0 25px #4fc3ff;
+    margin-bottom:15px;
+}
+.dev h3, .dev p{margin:5px 0;}
+footer{font-size:12px;opacity:.7;margin:20px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<img class="logo" src="https://uploads.onecompiler.io/446vxgds2/449ebeusm/10074.jpg">
+<h1 class="glow">𝙂𝙖𝙖𝙣𝙜𝙖𝙖𝙖𝙖 𝙎𝙩𝙤𝙧𝙚</h1>
+<p class="glow">𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝘼𝙣𝙙𝙧𝙤𝙞𝙙 𝙏𝙤𝙤𝙡𝙨</p>
+
+<div class="profile">
+<img src="https://uploads.onecompiler.io/446vxgds2/449ebeusm/10057.jpg">
+<h3 class="glow">Admin: Ganga</h3>
+<p class="glow">📱 9861892234 • 📧 ganga07yt@gmail.com • 📸 @gaangaaaa</p>
+</div>
+</header>
+
+<section class="apps">
+
+<!-- APP 1 -->
+<div class="app">
+<img src="https://uploads.onecompiler.io/446vxgds2/449ebeusm/10058.jpg">
+<h2 class="glow">𝙊𝙣 𝙔𝙤𝙪𝙧 𝘿𝙚𝙫𝙞𝙘𝙚 𝙎𝙚𝙣𝙨𝙞𝙩𝙞𝙫𝙞𝙩𝙮</h2>
+<div class="price glow">₹49.99</div>
+<button onclick="buy('On Your Device Sensitivity','49.99')">𝘽𝙐𝙔 𝙉𝙊𝙒</button>
+</div>
+
+<!-- APP 2 -->
+<div class="app">
+<img src="https://uploads.onecompiler.io/446vxgds2/449ebeusm/10058.jpg">
+<h2 class="glow">𝘾𝙤𝙣𝙛𝙞𝙜 𝙁𝙞𝙡𝙚</h2>
+<div class="price glow">₹99.99</div>
+<button onclick="buy('Config File','99.99')">𝘽𝙐𝙔 𝙉𝙊𝙒</button>
+</div>
+
+<!-- APP 3 -->
+<div class="app">
+<img src="https://uploads.onecompiler.io/446vxgds2/449ebeusm/10058.jpg">
+<h2 class="glow">𝙍𝙚𝙜𝙚𝙙𝙞𝙩 𝙇𝙞𝙩𝙚</h2>
+<div class="price glow">₹150.00</div>
+<button onclick="buy('Regedit Lite','150.00')">𝘽𝙐𝙔 𝙉𝙊𝙒</button>
+</div>
+
+<!-- APP 4 -->
+<div class="app">
+<img src="https://uploads.onecompiler.io/446vxgds2/449ebeusm/10058.jpg">
+<h2 class="glow">𝙋𝙖𝙣𝙚𝙡</h2>
+<div class="price glow">₹199.99</div>
+<button onclick="buy('Panel','199.99')">𝘽𝙐𝙔 𝙉𝙊𝙒</button>
+</div>
+
+</section>
+
+<!-- DEVELOPER DETAILS -->
+<section class="dev glow">
+<img src="https://uploads.onecompiler.io/446vxgds2/4498q67a9/8c5fddec-587d-4562-97cb-60c9d65b544a-1_all_2532.jpg" 
+     alt="Developer Photo" 
+     class="dev-photo">
+<h3>👨‍💻 Developer: Bikash Bindhani</h3>
+<p>📱 9861713556</p>
+<p>📧 bindhanibikash71@gmail.com</p>
+<p>📸 Instagram: @bikshu._01</p>
+</section>
+
+<footer class="glow">
+© 2026 Gaangaaaa Store • All rights reserved
+</footer>
+
+<script>
+function buy(app, price){
+    const msg = encodeURIComponent(
+      "Hello, I want to buy:\n" +
+      app + " - ₹" + price + "\n\n" +
+      "From Gaangaaaa Store"
+    );
+    window.open(
+      "https://wa.me/919861892234?text=" + msg,
+      "_blank"
+    );
+}
+</script>
+
+</body>
+</html>
